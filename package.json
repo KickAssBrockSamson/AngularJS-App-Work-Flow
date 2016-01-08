@@ -1,7 +1,7 @@
 {
-  "name": "Angular Registration",
+  "name": "Angular Ionic Workflow",
   "version": "0.0.1",
-  "description": "A project to showcase Angular Registration",
+  "description": "Angular Ionic Workflow",
   "repository": {
     "type": "git"
   },
@@ -9,7 +9,6 @@
   "devDependencies": {
     "gulp": "^3.6.2",
     "gulp-util": "^2.2.14",
-    "gulp-coffee": "^1.4.3",
     "gulp-concat": "^2.2.0",
     "gulp-browserify": "^0.5.0",
     "jquery": "^2.1.1",
@@ -22,5 +21,14 @@
     "gulp-jsonminify": "0.0.1",
     "imagemin-pngcrush": "^0.1.0",
     "gulp-imagemin": "^0.5.0"
-  }
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": []
 }
